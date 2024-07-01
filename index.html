@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description">
+    <meta name="author Victoria Gomez">
     <title>Meme Generator</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body class="container">
-<!-- ENCABEZADO CON BOTEONES DEL GENERADOR  -->
+<!-- ENCABEZADO CON BOTONES DEL GENERADOR  -->
     <header class="hero">
         <h1>Generador de memes</h1>
         <button>texto</button>
@@ -24,6 +26,46 @@
         <button>Download</button>
     </main>
     <aside>
+        <div class="aside_image">
+            <button>
+                boton de cierre de aside
+            </button>
+            <section class="menu_image">
+                <h2>
+                    Image Settings
+                </h2>
+                <div class="filtro">
+                    <h3>URL</h3>
+                    <input type="url" name="" id="">
+                </div>
+
+                <div class="filtro">
+                    <h3>FONDO</h3>
+                    <div class="panel_column">
+                        <div class="panel_color">
+                            <input type="text">
+
+    
+                        </div>
+    
+                        <div class="panel_effect">
+                            <select name="effect" id="effect">
+                                <option value="none">Ninguno</option>
+                                <option value="lightning">Aclarar</option>
+                                <option value="darkness">Oscurecer</option>
+                                <option value="difference">Diferencia</option>
+                                <option value="luminosity">Luminosidad</option>
+                                <option value="multiply">Multiplicar</option>
+                            </select>
+    
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
 
     </aside>
 </body>
