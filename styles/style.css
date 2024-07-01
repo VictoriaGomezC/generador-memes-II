@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap);
+@import url(./normalize.css);
+@import url(./desktop.css);
+@import url(./tablet.css);
+@import url(./mobile.css);
+
+/* variables */
+:root{
+    --fonthtml:"Kanit", sans-serif;
+    --font_header:"Mulish", sans-serif;
+    --color_header:#171a4a;
+    --color_main:#2d2c55;
+    --color_aside: #0E112F;
+    --color_header_light:#9493C8;
+    --color_main_light:#8786C1;
+    --color_aside_light:#727AD5;
+
+}

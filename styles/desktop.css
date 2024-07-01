@@ -1,0 +1,17 @@
+.container{
+    background-color: var(--color_main);
+    display: flex;
+}
+.hero{
+    width:100%;
+    height: 20%;
+    background-color: var(--color_header);
+}
+.meme_container{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: var(--color_aside);
+    justify-content: center;
+    align-self: center;
+}
